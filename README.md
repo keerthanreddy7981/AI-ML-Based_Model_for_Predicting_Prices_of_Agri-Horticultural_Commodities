@@ -1,18 +1,52 @@
 # ML-Project
-AI/ML-Based Model for Predicting Prices of Agri-Horticultural Commodities
+🌾 AI/ML-Based Model for Predicting Prices of Agri-Horticultural Commodities
 📌 Project Overview
-Agricultural and horticultural commodity prices are highly volatile due to seasonal changes, weather conditions, supply-demand variations, and market dynamics. Accurate price forecasting is essential for farmers, traders, policymakers, and consumers to make informed decisions.
+Agricultural and horticultural commodity prices are highly volatile due to:
 
-This project develops a Machine Learning (ML) based price prediction model that leverages historical market data, climatic factors, and other relevant parameters to predict future prices for various agri-horticultural commodities.
+Seasonal changes
+
+Weather conditions
+
+Supply-demand variations
+
+Market dynamics
+
+Accurate price forecasting helps:
+
+Farmers
+
+Traders
+
+Policymakers
+
+Consumers
+
+This project builds a Machine Learning-based price prediction model using:
+
+Historical market data
+
+Climatic factors
+
+Other relevant parameters
+
+Goal: Predict future prices for various agri-horticultural commodities.
 
 🎯 Objectives
-Predict near-term and medium-term prices of selected commodities.
+Predict near-term and medium-term commodity prices.
 
-Provide insights into price trends to assist farmers and market stakeholders.
+Provide price trend insights to assist farmers and stakeholders.
 
-Integrate external influencing factors like weather patterns, seasonal cycles, and market demand.
+Integrate external factors:
 
-Offer an easy-to-use prediction interface (optional dashboard/web app).
+Weather patterns
+
+Seasonal cycles
+
+Market demand
+
+Deliver an easy-to-use prediction interface:
+
+Web dashboard / API
 
 📂 Dataset
 Sources
@@ -20,7 +54,7 @@ Government portals (e.g., Agmarknet, Ministry of Agriculture)
 
 Weather APIs (IMD, OpenWeatherMap)
 
-Local market data from mandis/wholesale price reports
+Local market data from mandis / wholesale reports
 
 Historical price archives from commodity boards
 
@@ -31,22 +65,34 @@ Commodity Name
 
 Market Location
 
-Minimum Price, Maximum Price, Modal Price
+Price details:
 
-Weather Parameters (Temperature, Rainfall, Humidity, etc.)
+Minimum Price
 
-Supply/Demand Indicators
+Maximum Price
+
+Modal Price
+
+Weather parameters:
+
+Temperature
+
+Rainfall
+
+Humidity
+
+Supply/Demand indicators
 
 🧠 Methodology
 Data Collection & Cleaning
 
-Scraping and API-based data ingestion
+Scraping & API-based data ingestion
 
 Handling missing values, outliers, and inconsistent entries
 
 Exploratory Data Analysis (EDA)
 
-Trend analysis, seasonality detection
+Trend analysis & seasonality detection
 
 Correlation between weather and prices
 
@@ -74,7 +120,7 @@ Deployment
 
 API for predictions
 
-Web dashboard for visualization (Streamlit/Django/Flask)
+Web dashboard (Streamlit / Django / Flask)
 
 ⚙️ Technologies Used
 Programming Language: Python (3.9+)
@@ -86,9 +132,5 @@ Data Handling: pandas, numpy
 Visualization: matplotlib, seaborn, plotly
 
 ML Models: scikit-learn, xgboost, lightgbm
-
-Time Series: statsmodels, prophet, tensorflow (for LSTM/GRU)
-
-Deployment: Streamlit / Flask / Django
 
 Data Sources: Agmarknet API, IMD Weather API, CSV datasets
