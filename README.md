@@ -1,6 +1,6 @@
 # ML-Project
-🌾 AI/ML-Based Model for Predicting Prices of Agri-Horticultural Commodities
-📌 Project Overview
+ AI/ML-Based Model for Predicting Prices of Agri-Horticultural Commodities
+ Project Overview :
 Agricultural and horticultural commodity prices are highly volatile due to:
 
 Seasonal changes
@@ -31,7 +31,7 @@ Other relevant parameters
 
 Goal: Predict future prices for various agri-horticultural commodities.
 
-🎯 Objectives
+ Objectives :
 Predict near-term and medium-term commodity prices.
 
 Provide price trend insights to assist farmers and stakeholders.
@@ -48,7 +48,7 @@ Deliver an easy-to-use prediction interface:
 
 Web dashboard / API
 
-📂 Dataset
+ Dataset :
 Sources
 Government portals (e.g., Agmarknet, Ministry of Agriculture)
 
@@ -83,7 +83,7 @@ Humidity
 
 Supply/Demand indicators
 
-🧠 Methodology
+ Methodology :
 Data Collection & Cleaning
 
 Scraping & API-based data ingestion
@@ -122,7 +122,7 @@ API for predictions
 
 Web dashboard (Streamlit / Django / Flask)
 
-⚙️ Technologies Used
+Technologies Used :
 Programming Language: Python (3.9+)
 
 Libraries:
