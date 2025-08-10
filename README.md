@@ -36,13 +36,6 @@ Predict near-term and medium-term commodity prices.
 
 Provide price trend insights to assist farmers and stakeholders.
 
-Integrate external factors:
-
-Weather patterns
-
-Seasonal cycles
-
-Market demand
 
 Deliver an easy-to-use prediction interface:
 
@@ -50,7 +43,6 @@ Web dashboard / API
 
  Dataset :
 Sources
-Government portals (e.g., Agmarknet, Ministry of Agriculture)
 
 Weather APIs (IMD, OpenWeatherMap)
 
